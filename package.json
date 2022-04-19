@@ -1,0 +1,16 @@
+{
+  "name": "algo-rank-1",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "types": "dist/types.d.ts",
+  "author": "suixing",
+  "license": "MIT",
+  "main": "dist/main.js"
+}
