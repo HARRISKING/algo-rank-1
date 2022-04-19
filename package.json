@@ -12,5 +12,9 @@
   "types": "dist/types.d.ts",
   "author": "suixing",
   "license": "MIT",
-  "main": "dist/main.js"
+  "main": "dist/main.js",
+  "dependencies": {
+    "loadsh": "^0.0.4",
+    "lodash": "^4.17.21"
+  }
 }
