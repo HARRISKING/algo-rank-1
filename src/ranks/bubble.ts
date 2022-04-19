@@ -13,6 +13,7 @@ const bubble = (data: number[]) => {
       }
     }
   }
+  return copyArr;
 };
 // 换位置处理函数
 const switchPosition = (index: number, targetList: number[]): number[] => {
