@@ -3,7 +3,6 @@ import { IMinInfo } from "../interface";
 
 // 源数据
 const dataSource: number[] = [4, 7, 29, 1, 3, 23, 25, 26, 43, 55, 2];
-// 冒泡算法
 const select = (data: number[]) => {
   // 防止污染源数据，进行深拷贝
   let copyArr: number[] = JSON.parse(JSON.stringify(data));
